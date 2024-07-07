@@ -1,0 +1,68 @@
+.main {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.tableau {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.today {
+    width: 200px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.everyFreeHours {
+    width: 200px;
+    height: 300px;
+}
+.time {
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.days {
+    width: 70%;
+    height: 150px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+.day {
+    width: 17%;
+    height: 100%;
+    border: 1px solid black;
+}
+.dayActive {
+   
+    scale: 1.2;
+}
+.p1 {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p2{
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.day div {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+}
